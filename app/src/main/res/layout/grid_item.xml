@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F5F5F5">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        app:cardCornerRadius="10dp"
+        app:cardMaxElevation="2px"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <ImageView
+                android:id="@+id/xinimage"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:src="@mipmap/a" />
+
+            <TextView
+                android:id="@+id/xint"
+                android:layout_width="match_parent"
+                android:layout_height="32.5dp"
+                android:layout_below="@id/xinimage"
+                android:layout_marginLeft="9.5dp"
+                android:layout_marginTop="10dp"
+                android:text="私教深度体验课程3节(含营养餐)，节假日…"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/xint1"
+                android:layout_width="match_parent"
+                android:layout_height="11dp"
+                android:layout_below="@id/xint"
+                android:layout_marginLeft="9.5dp"
+                android:layout_marginTop="5dp"
+                android:text="2019-10-25 09:50"
+                android:textColor="#999999 "
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/xint2"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:layout_below="@id/xint1"
+                android:layout_marginLeft="9.5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:text="长春市众恒健身管理有限公司"
+                android:textColor="#999999 "
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

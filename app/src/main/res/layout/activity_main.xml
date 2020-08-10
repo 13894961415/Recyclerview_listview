@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#f36d"
+    android:orientation="vertical">
+
+ <TextView
+     android:id="@+id/list"
+     android:layout_width="match_parent"
+     android:layout_height="60dp"
+     android:text="listview"
+     android:textSize="30dp"
+     android:background="#fff"
+     android:layout_marginTop="60dp"
+     android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="gridview"
+        android:textSize="30dp"
+        android:background="#fff"
+        android:layout_marginTop="60dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/listgrid"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="list嵌套gridview"
+        android:background="#fff"
+        android:textSize="30dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"/>
+</LinearLayout>
